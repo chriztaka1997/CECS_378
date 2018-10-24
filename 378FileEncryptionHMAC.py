@@ -29,7 +29,7 @@ def MyfileEncryptMAC(filepath):
     return answer,EncKey,HMACKey,extension #return cypher, iv, hash, encryption key, hash key
 
 
-path = "/Users/angelfranco/documents/FileLockZ.JPEG" #path for file
+path = "./b.jpeg" #path for file
 EncryInfo = MyfileEncryptMAC(path) #call file encryption
 
 
